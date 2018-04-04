@@ -28,7 +28,7 @@ class App extends Component {
     /*const currentStateBox = this.state.toysInBox
     currentStateBox.push(toy)*/
 
-    let answer = item.answer === "correct" ? "correct" : "incorrect";
+    let answer = item.answer
 
     this.setState({
       toys: newState,
